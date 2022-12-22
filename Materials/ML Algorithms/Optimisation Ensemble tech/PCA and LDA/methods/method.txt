@@ -1,0 +1,7 @@
+LDA between class and within class
+PCA same steps but 1 matrix
+same opr
+mean vectors
+scat matrix
+eigen val eigen matrix
+sort which has highest

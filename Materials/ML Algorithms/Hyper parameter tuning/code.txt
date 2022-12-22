@@ -1,0 +1,23 @@
+import numpy as np
+from sklearn import linear_model, datasets
+from sklearn.model_selection import GridSearchCV
+iris = datasets.load_iris()
+features = iris.data
+target = iris.target
+C = np.logspace(0, 4, num=10)
+penalty = ['l1', 'l2']
+solver = ['liblinear', 'saga']
+hyperparameters = dict(C=C, penalty=penalty, solver=solver)
+logistic = linear_model.LogisticRegression()
+gridsearch = GridSearchCV(logistic, hyperparameters)
+best_model_grid = gridsearch.fit(features, target)
+print(best_model_grid.best_estimator_)
+
+
+
+
+
+from sklearn.model_selection import RandomizedSearchCV
+randomizedsearch = RandomizedSearchCV(logistic, hyperparameters)
+best_model_random = randomizedsearch.fit(features, target)
+print(best_model_random.best_estimator_)

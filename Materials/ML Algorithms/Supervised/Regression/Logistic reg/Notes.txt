@@ -1,0 +1,2 @@
+Dependent-Binary categorical
+independent-categorical and continous

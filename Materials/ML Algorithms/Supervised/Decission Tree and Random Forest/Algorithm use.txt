@@ -1,0 +1,5 @@
+Technique               Dependent var           Independent var            purpose
+
+Dedcission Tree          categorical          categorical/continous         classification using pictorically help of gini index
+
+Random forest            categorical          categorical/continous        Ensample of decission tree, used to find imp var for decission tree

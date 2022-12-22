@@ -1,0 +1,12 @@
+
+   s
+Technique              Dependent var          independent var                          use
+
+          
+Naive Bayes           Categorical              categorical                  clasification using probability
+
+
+KNN                    categorical             categorical and cont        classification using ucledian distance
+
+
+SVM                    categorical            categorical and cont         classification using hyper glame . applicabe for over dimen data
