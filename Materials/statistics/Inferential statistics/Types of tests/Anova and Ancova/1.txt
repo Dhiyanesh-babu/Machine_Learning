@@ -1,0 +1,19 @@
+Analysis of variance
+
+Anova:
+indep var categ
+dep var  cont
+used to compare 2 or more sample means
+
+1 dep 1 indep Oneway Anova
+1 dep 2 indep Two way Anova
+1 dep 2+ indep Multiway Anova
+
+
+
+
+Analysis of covariance
+
+dep var cont
+indep var cont/catrg
+used to compare covariance of sample mean

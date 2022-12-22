@@ -1,0 +1,15 @@
+Non parametric test:-
+
+1.) willcoxon sign test -> compare 2 paired samples
+2.) Fried man test -> compare more than 2 paired samples
+3.) Mann whitney test -> compare 2 independent smaples
+4) kruskal wallis test -> compare more than 2 independent smaples
+5.) chi square test -> check dependency of variables (variable should be categorical)
+
+Parametric test:-
+
+1.) 1 sample t test -> compare sample mean with population mean
+2.) Two sample paired t test -> compare mean of 2 paired samples
+3.) Two sample seperate t test -> compare mean of 2 independent samples
+4.) one sample F test -> Dependent variable is cont. and independent variable is categorical ( one way ANOVA )
+5.) Two sample F test -> Dependent var is cont. and independent variable is categorical (2 independent var ) ( two way ANOVA )
